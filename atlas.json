@@ -11,12 +11,21 @@
   "formats": {
     "pdf": {
       "version": "web",
-      "toc": true
+      "toc": true,
+      "index": false
     },
-    "epub": {},
-    "mobi": {},
+    "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false
+    },
+    "mobi": {
+      "index": false,
+      "toc": false
+    },
     "html": {
-      "toc": true
+      "toc": true,
+      "index": false
     }
   },
   "theme": "oreillymedia/animal_theme",
